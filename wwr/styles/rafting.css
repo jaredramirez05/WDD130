@@ -378,3 +378,72 @@ footer {
     font-size: 0.9rem;
     padding: 0;
 }
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 3rem auto;
+    max-width: 840px;
+    padding: 20px;
+}
+
+.trip-card {
+    border: 1px solid var(--accent1-color);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.trip-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.trip-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.trip-card ul li {
+    padding: 3px 0;
+}
+
+.trip-hero {
+    background-color: var(--accent3-color);
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.data-table {
+    max-width: 840px;
+    margin: 2rem auto;
+}
+
+.data-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.data-table thead{
+    background-color: var(--primary-color);
+    color: #fff;
+}
